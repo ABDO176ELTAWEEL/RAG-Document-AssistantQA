@@ -2,7 +2,9 @@
 "An intelligent RAG-based QA system using Llama 3 and ChromaDB for context-aware document interaction and hallucination mitigation."
 # 🤖 Smart RAG-Based Document Assistant
 
-
+# Welcome Dr.Rahatara Ferdousi
+# This is Group 19's Project: RAG-Based Document Assistant
+# Please run the cells in order to initialize the environment and the UI.
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/YOUR_NOTEBOOK_NAME.ipynb)
 
 An intelligent question-answering system based on **Retrieval-Augmented Generation (RAG)** designed to interact with PDF documents with high factual accuracy.
@@ -36,7 +38,7 @@ The system follows a modular pipeline:
 3. Launch the **Gradio** interface from the last cell.
 4. Upload your PDF files, click **Analyze**, and start interacting with your data!
 
-## 👥 Group Members
+## 👥 Group 19 Members
 * **Abdelrahman Ibrahim**
 * **Aya Noah**
 
