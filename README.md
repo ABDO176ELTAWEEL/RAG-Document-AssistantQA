@@ -2,7 +2,6 @@
 "An intelligent RAG-based QA system using Llama 3 and ChromaDB for context-aware document interaction and hallucination mitigation."
 # 🤖 Smart RAG-Based Document Assistant
 
-# 🤖 Smart RAG-Based Document Assistant
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/YOUR_NOTEBOOK_NAME.ipynb)
 
