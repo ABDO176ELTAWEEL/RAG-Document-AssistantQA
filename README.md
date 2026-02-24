@@ -5,7 +5,7 @@
 # Welcome Dr.Rahatara Ferdousi
 This is Group 19's Project: RAG-Based Document Assistant
 # Please run the cells in order to initialize the environment and the UI.
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/YOUR_NOTEBOOK_NAME.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ABDO176ELTAWEEL/RAG-Document-AssistantQA/blob/main/RAG_Document_FQA.ipynb)
 
 An intelligent question-answering system based on **Retrieval-Augmented Generation (RAG)** designed to interact with PDF documents with high factual accuracy.
 
