@@ -2,42 +2,44 @@
 "An intelligent RAG-based QA system using Llama 3 and ChromaDB for context-aware document interaction and hallucination mitigation."
 # 🤖 Smart RAG-Based Document Assistant
 
+# 🤖 Smart RAG-Based Document Assistant
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/YOUR_NOTEBOOK_NAME.ipynb)
+
 An intelligent question-answering system based on **Retrieval-Augmented Generation (RAG)** designed to interact with PDF documents with high factual accuracy.
 
 ## 📖 Project Overview
-[cite_start]This project delivers accurate and context-aware responses by grounding generation in retrieved evidence from uploaded documents[cite: 6]. [cite_start]It is designed to mitigate hallucinations and improve reliability in real-world generative AI applications[cite: 7, 10].
-
-
+This project delivers accurate and context-aware responses by grounding generation in retrieved evidence from uploaded documents. It is specifically designed to mitigate hallucinations and improve reliability in real-world generative AI applications.
 
 ## 🛠️ Methodology & Architecture
-[cite_start]The system follows a modular pipeline[cite: 15]:
-1. [cite_start]**Ingestion**: Loading and preprocessing PDF documents[cite: 16].
-2. [cite_start]**Chunking**: Semantic chunking using Recursive Text Splitter[cite: 17].
-3. [cite_start]**Vector Store**: Storage and similarity search using **ChromaDB**[cite: 18, 19].
-4. [cite_start]**Generation**: Response generation using **Llama 3** conditioned on retrieved context[cite: 20].
+The system follows a modular pipeline:
+1. **Ingestion**: Loading and preprocessing PDF documents.
+2. **Chunking**: Semantic chunking using Recursive Text Splitter to preserve context.
+3. **Vector Store**: Storage and similarity search using **ChromaDB**.
+4. **Generation**: Response generation using **Llama 3** (via Ollama) conditioned on retrieved context.
 
-## 🚀 Features
+## 🚀 Key Features
 - **Multi-PDF Support**: Upload and query multiple documents simultaneously.
-- **Executive Summary**: One-click professional summary of document content.
-- **Chat Memory**: Maintains conversation context for follow-up questions.
-- **Source Citations**: Every answer includes the exact page number for transparency.
+- **Executive Summary**: One-click professional summary of the entire document collection.
+- **Chat Memory**: Maintains conversation context for natural follow-up questions.
+- **Source Citations**: Every answer includes the exact page number and source for full transparency.
 
 ## 💻 Tech Stack
-- [cite_start]**Language**: Python [cite: 12]
+- **Language**: Python
 - **LLM**: Llama 3 (via Ollama)
 - **Framework**: LangChain
 - **UI**: Gradio
 - **Embeddings**: HuggingFace Multilingual MiniLM
 
 ## 🏁 How to Run
-1. Open the notebook in **Google Colab**.
-2. Run the installation cell to setup **Ollama** and dependencies.
-3. Launch the **Gradio** interface.
-4. Upload your files, click **Analyze**, and start chatting!
+1. Click the **Open In Colab** badge at the top of this page.
+2. Run the installation cell to setup **Ollama** and all required dependencies.
+3. Launch the **Gradio** interface from the last cell.
+4. Upload your PDF files, click **Analyze**, and start interacting with your data!
 
 ## 👥 Group Members
-* [cite_start]**Abdelrahman Ibrahim** [cite: 1]
-* [cite_start]**Aya Noah** [cite: 1]
+* **Abdelrahman Ibrahim**
+* **Aya Noah**
 
 ---
-[cite_start]*This project was developed for the Generative AI course to demonstrate proficiency in embedding-based retrieval and modular system design[cite: 9, 10].*
+*This project was developed as part of the Generative AI course (CSAI810) to demonstrate proficiency in embedding-based retrieval and modular system design.*
